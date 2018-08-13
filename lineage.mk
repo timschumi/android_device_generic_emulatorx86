@@ -5,3 +5,6 @@ PRODUCT_NAME := lineage_emulatorx86
 PRODUCT_DEVICE := emulatorx86
 PRODUCT_BRAND := LineageOS
 PRODUCT_MODEL := Emulator for x86
+
+PRODUCT_PACKAGES += \
+    vndk-sp
